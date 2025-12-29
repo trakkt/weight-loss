@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    height: 72px;
+    align-items: center;
+    padding: 0 20%;
+    background-color: #EE95BF;
+    padding: 0 20%;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+.ab{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.b0{
+    display:flex;
+    font-family: 'Pacifico';
+    font-size: 45px;
+    color: #A65179;
+    margin: 20px;
+}
+.ar1{
+    display:flex;
+    justify-content:space-around;
+    padding:5% 5%;
+}
+h1{
+    color: #5F157A;
+    font-size: 48px;
+    padding: 25px 10px;
+}
+.ar1 p{
+    color: #9751B1;
+    font-size: 24px;
+    padding: 25px 10px;
+}
+.ar1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #A62A1A;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    top: 40px;
+    left: 8px;
+}
+.ar2 h2{
+    color: #5F157A;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+.ar2 p{
+    color: #5F157A;
+    font-size: 36px;
+    padding: 20px;
+    margin: 20px;
+}
+.ar2{
+    background-image: url(/imgs/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.s1{
+    color: #000000;
+}
+.ar3 img{
+    position: absolute;
+    left: 75%;
+    z-index: -1;
+}
+.ar3>h2{
+    color: #d493c6;
+    font-family: 'Pacifico';
+    font-size: 48px;
+    padding: 20px 20%;
+}
+.ar3 p{
+    color: #5F157A;
+    font-size: 32px;
+    font-weight: 700;
+}
+.ar3 ul{
+    font-size: 30px;
+    color: #5F157A;
+    font-weight: 600;
+}
+.ar3 p,ul{
+    padding: 20px 60px;
+}
+.s2{
+    color:#d493c6;
+}
+.ar4{
+    background-color: #EE95BF;
+    position: relative;
+}
+.ar4 h2{
+    color: #A65179;
+    font-size: 48px;
+    padding: 20px 20%;
+    font-family: "Pacifico";
+}
+.ar4 ol,ul{
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+.ar4 img{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    z-index: 1;
+}
+.s3{
+    color: #8B1951;
+}
+.s4{
+    color: #5F157A;
+}
+footer{
+    background-color: #8B1951;
+    padding: 10px;
+}
+footer p{
+    color: #fff;
+}
