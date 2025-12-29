@@ -68,7 +68,7 @@ h1{
     margin: 20px;
 }
 .ar2{
-    background-image: url(/imgs/fon.png);
+    background-image: url(imgs/fon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -138,3 +138,4 @@ footer{
 footer p{
     color: #fff;
 }
+
